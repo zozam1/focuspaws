@@ -1,0 +1,9 @@
+// MARK: - Widget
+"widget.no_activity" = "활동 없음";
+
+// MARK: - Activity types
+"activity.resting" = "쉬는 중";
+"activity.coding" = "코딩 중";
+"activity.studying" = "공부 중";
+"activity.exercise" = "운동 중";
+"activity.working" = "알바 중";

@@ -1,0 +1,88 @@
+// MARK: - Auth
+"login.title" = "로그인";
+"login.subtitle" = "친구들의 지금을 함께";
+"login.email" = "이메일";
+"login.password" = "비밀번호";
+"login.button" = "로그인";
+"login.no_account" = "아직 계정이 없다면";
+"login.signup" = "회원가입";
+"login.error" = "이메일 또는 비밀번호를 확인해주세요";
+
+"signup.title" = "회원가입";
+"signup.character_title" = "캐릭터 선택";
+"signup.greeting" = "반가워요!";
+"signup.greeting_sub" = "닉네임과 계정 정보를 입력해주세요";
+"signup.nickname" = "닉네임";
+"signup.password_hint" = "비밀번호 (6자 이상)";
+"signup.next" = "다음";
+"signup.character_sub" = "친구들에게 보여질 내 동물 캐릭터예요";
+"signup.start" = "시작하기";
+"signup.error_input" = "모든 항목을 올바르게 입력해주세요";
+"signup.error_fail" = "회원가입에 실패했어요. 다시 시도해주세요";
+
+// MARK: - Home / Room
+"home.title" = "table";
+"room.create" = "방 만들기";
+"room.join_code" = "초대 코드 입력";
+"room.empty_title" = "아직 방이 없어요";
+"room.empty_sub" = "친구들을 초대해서 방을 만들어보세요";
+"room.enter_code" = "코드 입력";
+"room.member_count" = "멤버 %d명";
+
+"room.create_title" = "방 만들기";
+"room.name_placeholder" = "예: 우리 팀, 스터디 그룹";
+"room.name_label" = "방 이름";
+"room.created" = "방이 만들어졌어요!";
+"room.share_code" = "아래 코드를 친구에게 공유하세요";
+"room.copy_code" = "코드 복사";
+"room.copied" = "복사됨!";
+"room.done" = "완료";
+"room.cancel" = "취소";
+
+"room.invite_title" = "초대 코드";
+"room.invite_sub" = "친구에게 이 코드를 공유하세요";
+"room.code_placeholder" = "예: AB12CD";
+"room.enter" = "입장하기";
+"room.entered" = "입장했어요!";
+"room.close" = "닫기";
+
+"seat.empty" = "공석";
+"seat.no_activity" = "활동 없음";
+
+// MARK: - Timer
+"timer.title" = "타이머";
+"timer.select_activity" = "활동을 선택해주세요";
+"timer.start" = "시작";
+"timer.stop" = "정지";
+
+// MARK: - Activity
+"activity.coding" = "코딩 중";
+"activity.studying" = "과제 중";
+"activity.exercise" = "운동 중";
+"activity.working" = "알바 중";
+
+// MARK: - Calendar
+"calendar.title" = "기록";
+"calendar.no_record" = "기록 없음";
+"calendar.monthly_total" = "이번 달 총 %@";
+
+// MARK: - Profile
+"profile.title" = "프로필";
+"profile.character" = "캐릭터";
+"profile.change_animal" = "동물 변경";
+"profile.signout" = "로그아웃";
+"profile.signout_confirm" = "정말 로그아웃 할까요?";
+"profile.signout_cancel" = "취소";
+"profile.change_title" = "동물 변경";
+"profile.save" = "저장";
+
+// MARK: - Animals
+"animal.cat" = "고양이";
+"animal.bear" = "곰";
+"animal.rabbit" = "토끼";
+"animal.hamster" = "햄스터";
+
+// MARK: - Errors
+"error.not_logged_in" = "로그인이 필요합니다";
+"error.room_not_found" = "초대 코드를 다시 확인해주세요";
+"error.room_full" = "방이 가득 찼어요 (최대 6명)";

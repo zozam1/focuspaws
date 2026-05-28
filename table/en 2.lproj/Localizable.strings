@@ -1,0 +1,88 @@
+// MARK: - Auth
+"login.title" = "Log In";
+"login.subtitle" = "See what your friends are up to";
+"login.email" = "Email";
+"login.password" = "Password";
+"login.button" = "Log In";
+"login.no_account" = "Don't have an account?";
+"login.signup" = "Sign Up";
+"login.error" = "Please check your email or password";
+
+"signup.title" = "Sign Up";
+"signup.character_title" = "Pick a Character";
+"signup.greeting" = "Nice to meet you!";
+"signup.greeting_sub" = "Enter your nickname and account info";
+"signup.nickname" = "Nickname";
+"signup.password_hint" = "Password (6+ characters)";
+"signup.next" = "Next";
+"signup.character_sub" = "Choose your animal character for friends to see";
+"signup.start" = "Get Started";
+"signup.error_input" = "Please fill in all fields correctly";
+"signup.error_fail" = "Sign up failed. Please try again";
+
+// MARK: - Home / Room
+"home.title" = "table";
+"room.create" = "Create Room";
+"room.join_code" = "Enter Invite Code";
+"room.empty_title" = "No rooms yet";
+"room.empty_sub" = "Create a room and invite your friends";
+"room.enter_code" = "Enter Code";
+"room.member_count" = "%d members";
+
+"room.create_title" = "Create Room";
+"room.name_placeholder" = "e.g. Our Team, Study Group";
+"room.name_label" = "Room Name";
+"room.created" = "Room created!";
+"room.share_code" = "Share this code with your friends";
+"room.copy_code" = "Copy Code";
+"room.copied" = "Copied!";
+"room.done" = "Done";
+"room.cancel" = "Cancel";
+
+"room.invite_title" = "Invite Code";
+"room.invite_sub" = "Share this code with your friends";
+"room.code_placeholder" = "e.g. AB12CD";
+"room.enter" = "Join";
+"room.entered" = "Joined!";
+"room.close" = "Close";
+
+"seat.empty" = "Empty";
+"seat.no_activity" = "No activity";
+
+// MARK: - Timer
+"timer.title" = "Timer";
+"timer.select_activity" = "Select an activity";
+"timer.start" = "Start";
+"timer.stop" = "Stop";
+
+// MARK: - Activity
+"activity.coding" = "Coding";
+"activity.studying" = "Studying";
+"activity.exercise" = "Working out";
+"activity.working" = "Working";
+
+// MARK: - Calendar
+"calendar.title" = "History";
+"calendar.no_record" = "No records";
+"calendar.monthly_total" = "Total this month: %@";
+
+// MARK: - Profile
+"profile.title" = "Profile";
+"profile.character" = "Character";
+"profile.change_animal" = "Change Animal";
+"profile.signout" = "Log Out";
+"profile.signout_confirm" = "Are you sure you want to log out?";
+"profile.signout_cancel" = "Cancel";
+"profile.change_title" = "Change Animal";
+"profile.save" = "Save";
+
+// MARK: - Animals
+"animal.cat" = "Cat";
+"animal.bear" = "Bear";
+"animal.rabbit" = "Rabbit";
+"animal.hamster" = "Hamster";
+
+// MARK: - Errors
+"error.not_logged_in" = "Please log in";
+"error.room_not_found" = "Invalid invite code. Please check again";
+"error.room_full" = "Room is full (max 6 members)";
