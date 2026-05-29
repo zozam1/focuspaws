@@ -1,0 +1,351 @@
+// MARK: - Common
+"common.cancel" = "취소";
+"common.save" = "저장";
+"common.close" = "닫기";
+"common.done" = "완료";
+"common.next" = "다음";
+"common.stop" = "끄기";
+"common.delete" = "삭제";
+"common.create" = "만들기";
+"common.share" = "공유하기";
+"common.send" = "전송하기";
+"common.ok" = "확인";
+"label.me" = "나";
+"label.owner" = "방장";
+
+// MARK: - Navigation
+"nav.home" = "홈";
+"nav.timer" = "타이머";
+"nav.records" = "기록";
+"nav.profile" = "프로필";
+
+// MARK: - Auth
+"login.title" = "로그인";
+"login.subtitle" = "친구들의 지금을 함께";
+"login.email" = "이메일";
+"login.password" = "비밀번호";
+"login.button" = "로그인";
+"login.no_account" = "아직 계정이 없다면";
+"login.signup" = "회원가입";
+"login.error" = "이메일 또는 비밀번호를 확인해주세요";
+"login.forgot_password" = "비밀번호를 잊으셨나요?";
+"login.or" = "또는";
+"login.google" = "Google로 계속하기";
+"login.apple.error.credential" = "Apple 계정 정보를 확인하지 못했어요.";
+"login.apple.error.failed" = "Apple 로그인에 실패했어요. 다시 시도해주세요.";
+"login.forgot.title" = "비밀번호 찾기";
+"login.forgot.heading" = "비밀번호 재설정";
+"login.forgot.hint" = "가입한 이메일로 재설정 링크를 보내드려요";
+"login.forgot.sent" = "이메일을 확인해주세요";
+"login.forgot.send" = "전송하기";
+"login.forgot.error" = "이메일을 확인해주세요";
+"login.email_option" = "이메일로 계속하기";
+"signup.title" = "회원가입";
+"signup.character_title" = "캐릭터 선택";
+"signup.greeting" = "반가워요!";
+"signup.greeting_sub" = "닉네임과 계정 정보를 입력해주세요";
+"signup.nickname" = "닉네임";
+"signup.password_hint" = "비밀번호 (6자 이상)";
+"signup.next" = "다음";
+"signup.character_sub" = "친구들에게 보여질 내 동물 캐릭터예요";
+"signup.start" = "시작하기";
+"signup.error_input" = "모든 항목을 올바르게 입력해주세요";
+"signup.error_fail" = "회원가입에 실패했어요. 다시 시도해주세요";
+"focuspaws.friend" = "FocusPaws 친구";
+"room.default_name %@" = "%@의 방";
+"auth.error.apple.nonce" = "Apple 로그인 요청이 만료됐어요. 다시 시도해주세요.";
+"auth.error.apple.identity" = "Apple 계정 정보를 확인하지 못했어요.";
+"auth.error.google.client_id" = "Google 로그인 설정값을 찾지 못했어요.";
+"auth.error.google.identity" = "Google 계정 정보를 확인하지 못했어요.";
+"auth.error.presenting" = "로그인 화면을 찾지 못했어요. 앱을 다시 열고 시도해주세요.";
+
+// MARK: - Room
+"room.my" = "내 방";
+"room.friends" = "친구 방";
+"room.create" = "방 만들기";
+"room.create.new" = "새 방 만들기";
+"room.create.hint" = "방 이름을 입력하세요";
+"room.name.placeholder" = "방 이름";
+"room.members %@" = "멤버 %@명";
+"room.invite.code" = "초대 코드";
+"room.invite.hint" = "친구에게 이 코드를 공유하세요";
+"room.invite.copy" = "코드만 복사";
+"room.invite.copied" = "복사됨!";
+"room.invite.share.text %@" = "FocusPaws에서 같이 집중해요! 초대 코드: %@";
+"room.join.title" = "친구 방 방문";
+"room.join.code.title" = "친구 방 코드 입력";
+"room.join.hint" = "친구에게 받은 6자리 코드를 입력하세요";
+"room.join.placeholder" = "예: AB12CD";
+"room.joined" = "입장했어요!";
+"room.visit" = "방문하기";
+"room.rename" = "방 이름 변경";
+"room.manage" = "멤버 관리";
+"room.delete" = "방 삭제";
+"room.leave.title" = "방 나가기";
+"room.leave" = "나가기";
+"room.leave.confirm" = "정말 방을 나갈까요?";
+"room.delete.confirm" = "방을 삭제하면 모든 참가자의 목록에서 즉시 사라집니다.";
+"room.kick.title" = "강퇴하기";
+"room.kick" = "강퇴";
+"room.kick.confirm %@" = "%@님을 강퇴할까요?";
+"room.status.placeholder" = "한마디 입력...";
+"room.status.title" = "한마디";
+"room.status.clear" = "삭제";
+"room.status.focus" = "집중 중";
+"room.status.deadline" = "오늘 마감이야";
+"room.status.run" = "같이 달리자";
+"room.status.tired" = "졸려";
+"room.status.coffee" = "커피 마시는 중";
+"room.status.idle" = "대기중";
+"room.customize.locked" = "방장만 책상 분위기를 바꿀 수 있어요";
+"room.customize.desk" = "데스크 스킨";
+"room.customize.title" = "방 꾸미기";
+"room.customize.buy" = "상점에서 구매하세요";
+"room.customize.preview" = "실사 책상 배경 위에 유저들이 대각선으로 모입니다";
+
+// MARK: - Check-in
+"checkin.reward" = "오늘 리워드";
+"checkin.done" = "오늘 보상 완료";
+"checkin.awarded %lld %@" = "+%lld %@ 지급됨";
+"checkin.hint %@" = "%@ / 10분 활동 · 쉬는중 제외";
+"checkin.remaining %lld" = "%lld분 남음";
+"checkin.error.not_logged_in" = "로그인이 필요해요";
+"checkin.error.already" = "오늘 보상은 이미 받았어요";
+"checkin.error.remaining %lld" = "쉬는중을 제외하고 %lld분 더 활동하면 받을 수 있어요";
+
+// MARK: - Timer
+"timer.title" = "타이머";
+"timer.select" = "활동을 선택해주세요";
+"timer.stop" = "끄기";
+"timer.start" = "시작";
+"timer.pause" = "일시정지";
+"timer.resume" = "재개";
+"timer.resting" = "쉬는 중";
+"timer.paused %@" = "%@ 일시정지";
+
+// MARK: - Activity
+"activity.resting" = "쉬는 중";
+"activity.coding" = "코딩 중";
+"activity.studying" = "공부 중";
+"activity.exercise" = "운동 중";
+"activity.working" = "알바 중";
+
+// MARK: - Calendar
+"calendar.title" = "기록";
+"calendar.weekday.sun" = "일";
+"calendar.weekday.mon" = "월";
+"calendar.weekday.tue" = "화";
+"calendar.weekday.wed" = "수";
+"calendar.weekday.thu" = "목";
+"calendar.weekday.fri" = "금";
+"calendar.weekday.sat" = "토";
+"calendar.no_record" = "기록 없음";
+"calendar.monthly.total %@" = "이번 달 총 %@";
+"calendar.duration.hours %lld %lld" = "%lld시간 %lld분";
+"calendar.duration.minutes %lld" = "%lld분";
+
+// MARK: - Profile
+"profile.title" = "프로필";
+"profile.edit.hint" = "눌러서 프로필 편집";
+"profile.edit.title" = "프로필 편집";
+"profile.shop" = "상점";
+"profile.nickname" = "닉네임";
+"profile.character" = "캐릭터";
+"profile.outfit" = "착장";
+"profile.outfit.soon" = "착장은 준비 중";
+"profile.outfit.desc" = "캐릭터별로 하나씩 맞춰 그리는 방식으로 퀄리티를 지킬게요";
+"profile.save.error" = "저장 실패. 다시 시도해주세요.";
+
+// MARK: - Settings
+"settings.title" = "환경설정";
+"settings.language" = "언어";
+"settings.privacy" = "개인정보처리방침";
+"settings.terms" = "이용약관";
+"settings.logout" = "로그아웃";
+"settings.logout.confirm" = "정말 로그아웃 할까요?";
+"settings.delete.account" = "계정 삭제";
+"settings.delete.confirm" = "계정을 삭제하면 모든 데이터가 영구적으로 삭제되며 복구할 수 없어요.";
+"settings.deleting" = "삭제 중...";
+"settings.admin" = "관리자";
+"settings.admin.broadcast" = "브로드캐스트 전송";
+"settings.feedback" = "문의하기";
+
+// MARK: - Shop
+"shop.title" = "드롭";
+"shop.error.funds" = "잔액 부족";
+"shop.recharge" = "충전";
+"shop.currency.desc" = "활동하고 모아 동물과 방 스킨을 여는 앱 재화";
+"shop.animals" = "동물";
+"shop.animals.subtitle" = "같이 집중할 친구를 고르기";
+"shop.skins" = "스킨";
+"shop.skins.subtitle" = "기본은 무료, 감성 스킨은 100으로 해금";
+"shop.owned" = "보유 중";
+"shop.recharge.title" = "충전";
+"shop.recharge.desc" = "원하는 만큼 충전해서 동물과 방 스킨을 열어봐요.";
+"shop.pack1.title" = "500";
+"shop.pack1.subtitle" = "가볍게 시작하기";
+"shop.pack2.title" = "1200";
+"shop.pack2.subtitle" = "동물 하나 열고도 남게";
+"shop.pack3.title" = "2000";
+"shop.pack3.subtitle" = "제일 이득인 충전팩";
+"shop.balance" = "보유";
+"shop.pack1.price" = "500원";
+"shop.pack2.price" = "1,000원";
+"shop.pack3.price" = "1,200원";
+"shop.live" = "사용 중";
+"shop.unlocked" = "해금됨";
+"shop.get" = "구매";
+"shop.new" = "신규";
+
+// MARK: - Onboarding
+"onboarding.p1.title" = "친구와 함께하는 집중 공간";
+"onboarding.p1.desc" = "방을 만들고 친구를 초대해서\n같은 공간에서 함께 집중해요";
+"onboarding.p2.title" = "활동 타이머로 기록";
+"onboarding.p2.desc" = "코딩, 공부, 운동 등 활동을 기록하고\n달력으로 한눈에 확인해요";
+"onboarding.p3.title" = "10분 집중하면 보상 적립";
+"onboarding.p3.desc" = "매일 10분 이상 활동하면 보상을 받아요\n모은 보상으로 새로운 동물 캐릭터를 열 수 있어요";
+"onboarding.p4.title" = "준비됐어요!";
+"onboarding.p4.desc" = "방을 만들고 친구를 초대해서\nFocusPaws에서 함께 시작해봐요";
+"onboarding.next" = "다음";
+"onboarding.start" = "시작하기";
+
+// MARK: - Errors
+"error.not_logged_in" = "로그인이 필요합니다";
+"error.room_not_found" = "초대 코드를 다시 확인해주세요";
+"error.room_full" = "방이 가득 찼어요 (최대 %lld명)";
+"error.too_many_rooms" = "방은 최대 2개까지 만들 수 있어요";
+"error.not_room_owner" = "방장만 변경할 수 있어요";
+
+// MARK: - Room Skin Subtitles
+"따뜻한 집 책상" = "따뜻한 집 책상";
+"햇빛 드는 교실 책상" = "햇빛 드는 교실 책상";
+"따뜻한 카페 테이블" = "따뜻한 카페 테이블";
+"조용한 독서실 자리" = "조용한 독서실 자리";
+"차분한 도서관 테이블" = "차분한 도서관 테이블";
+"skin.desk.subtitle" = "따뜻한 집 책상";
+"skin.school.subtitle" = "햇빛 드는 교실 책상";
+"skin.cafe.subtitle" = "따뜻한 카페 테이블";
+"skin.studyroom.subtitle" = "조용한 독서실 자리";
+"skin.library.subtitle" = "차분한 도서관 테이블";
+"skin.beach.subtitle" = "파도 소리 나는 바다 책상";
+"skin.terrace.subtitle" = "노을지는 테라스 테이블";
+"skin.gym.subtitle" = "운동 전 집중하는 짐 테이블";
+
+// MARK: - Animals
+"animal.cat" = "고양이";
+"animal.bear" = "곰";
+"animal.rabbit" = "토끼";
+"animal.hamster" = "햄스터";
+"animal.dog" = "강아지";
+"animal.chick" = "병아리";
+"animal.redPanda" = "랫서판다";
+"animal.otter" = "수달";
+"animal.fox" = "여우";
+"animal.penguin" = "펭귄";
+"animal.koala" = "코알라";
+"animal.squirrel" = "다람쥐";
+
+// MARK: - Currency
+"currency.name" = "타임";
+
+// MARK: - Elapsed time
+"elapsed.hours %lld %lld" = "%lld시간 %lld분째";
+"elapsed.minutes %lld %lld" = "%lld분 %lld초째";
+"elapsed.seconds %lld" = "%lld초째";
+
+// MARK: - Daily Reward
+"reward.title" = "오늘 보상";
+"reward.earned %lld" = "%lld 적립";
+"reward.earned.label" = "적립";
+
+// MARK: - Member Profile
+"member.today_activity" = "오늘 활동";
+"member.today_total %@" = "오늘 %@";
+"member.total" = "합계";
+
+// MARK: - Cheer
+"cheer.button" = "응원하기";
+"cheer.send_amount %lld %@" = "%lld%@ 보내기";
+"cheer.receiver_hint %lld %@" = "친구에게 %lld%@이 바로 가요";
+"cheer.sent" = "응원 완료!";
+"cheer.already" = "이미 응원했어요";
+"cheer.error.already" = "이미 응원했어요";
+"cheer.error.no_coins" = "잔액이 부족해요";
+"cheer.error.limit" = "오늘 응원을 다 했어요 (5회)";
+"cheer.remaining %lld" = "오늘 %lld번 더 응원 가능";
+"cheer.someone" = "친구";
+"cheer.send_action" = "보내기";
+"cheer.receiver_prefix" = "친구에게";
+"cheer.receiver_suffix" = "바로 가요";
+
+// MARK: - Notifications
+"notification.cheer.title" = "응원이 도착했어요";
+"notification.cheer.body %@" = "%@님이 응원을 보냈어요";
+"notification.activity_started.title" = "친구가 활동을 시작했어요";
+"notification.activity_started.body %@ %@" = "%@님이 %@을 시작했어요";
+
+// MARK: - Broadcast
+"broadcast.reward.animal" = "한정 동물 지급";
+"broadcast.reward.room_skin" = "한정 배경 지급";
+"broadcast.expired" = "만료됨";
+"broadcast.expires.days %lld" = "%lld일 후 만료";
+"broadcast.expires.hours %lld" = "%lld시간 후 만료";
+"broadcast.expires.minutes %lld" = "%lld분 후 만료";
+"broadcast.claimed" = "수령 완료!";
+"broadcast.confirm" = "확인";
+"broadcast.claim" = "받기";
+"broadcast.inbox.empty" = "받은 메시지가 없어요";
+"broadcast.delete" = "삭제";
+"broadcast.messages" = "메시지";
+"broadcast.just_now" = "방금";
+"broadcast.ago.minutes %lld" = "%lld분 전";
+"broadcast.ago.hours %lld" = "%lld시간 전";
+"broadcast.ago.days %lld" = "%lld일 전";
+"broadcast.admin.section.message" = "메시지";
+"broadcast.admin.title.placeholder" = "제목 (예: 출시 기념)";
+"broadcast.admin.message.placeholder" = "내용";
+"broadcast.admin.section.reward" = "보상";
+"broadcast.admin.reward.type" = "보상 종류";
+"broadcast.admin.reward.none" = "없음";
+"broadcast.admin.reward.coins" = "앱 재화";
+"broadcast.admin.reward.animal" = "동물";
+"broadcast.admin.reward.room_skin" = "방 배경";
+"broadcast.admin.expiry_days %lld" = "수령 기간: %lld일";
+"broadcast.admin.sent" = "전송 완료!";
+"broadcast.admin.send" = "전송하기";
+"broadcast.admin.title" = "브로드캐스트";
+"broadcast.admin.placeholder.coins" = "지급할 재화 수량 (예: 200)";
+"broadcast.admin.placeholder.animal" = "동물 키 (예: dog, chick, red_panda, otter)";
+"broadcast.admin.placeholder.room_skin" = "배경 키";
+"broadcast.admin.error %@" = "전송 실패: %@";
+
+// MARK: - Feedback
+"feedback.category.bug" = "버그 신고";
+"feedback.category.idea" = "아이디어 제안";
+"feedback.category.other" = "기타 문의";
+"feedback.category.section" = "종류";
+"feedback.content.section" = "내용";
+"feedback.placeholder" = "자세히 적어주실수록 도움이 돼요";
+"feedback.submit" = "전송하기";
+"feedback.title" = "문의하기";
+"feedback.sent.title" = "전송 완료!";
+"feedback.sent.message" = "소중한 의견 감사해요";
+
+// MARK: - Debug
+"debug.simulation" = "시뮬레이션";
+"debug.room.count %lld" = "%lld명방";
+"debug.layout.check" = "배치 확인";
+
+"debug.simulation.room_title %lld" = "시뮬레이션 %lld명방";
+"debug.room.close.message" = "시뮬레이션 방만 닫혀요. 실제 데이터는 건드리지 않아요.";
+"debug.room.skin" = "방 스킨";
+"debug.status.title" = "시뮬레이션 상태메시지";
+"debug.status.placeholder" = "예: 집중중";
+"debug.status.focusing" = "집중중";
+"debug.status.resting" = "쉬는중";
+"debug.status.assignment" = "과제중";
+"debug.status.quiet_study" = "조용히 공부중";
+"debug.status.deadline" = "마감중";
+"debug.status.clear" = "상태메시지 지우기";
+"debug.status.change" = "상태 변경";
+"debug.members.section" = "참가자";

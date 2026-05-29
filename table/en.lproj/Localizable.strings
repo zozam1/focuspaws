@@ -1,0 +1,351 @@
+// MARK: - Common
+"common.cancel" = "Cancel";
+"common.save" = "Save";
+"common.close" = "Close";
+"common.done" = "Done";
+"common.next" = "Next";
+"common.stop" = "Stop";
+"common.delete" = "Delete";
+"common.create" = "Create";
+"common.share" = "Share";
+"common.send" = "Send";
+"common.ok" = "OK";
+"label.me" = "Me";
+"label.owner" = "Host";
+
+// MARK: - Navigation
+"nav.home" = "Home";
+"nav.timer" = "Timer";
+"nav.records" = "Records";
+"nav.profile" = "Profile";
+
+// MARK: - Auth
+"login.title" = "Log In";
+"login.subtitle" = "See what your friends are up to";
+"login.email" = "Email";
+"login.password" = "Password";
+"login.button" = "Log In";
+"login.no_account" = "Don't have an account?";
+"login.signup" = "Sign Up";
+"login.error" = "Please check your email or password";
+"login.forgot_password" = "Forgot your password?";
+"login.or" = "or";
+"login.google" = "Continue with Google";
+"login.apple.error.credential" = "Couldn't verify Apple credentials.";
+"login.apple.error.failed" = "Apple sign-in failed. Please try again.";
+"login.forgot.title" = "Reset Password";
+"login.forgot.heading" = "Reset Password";
+"login.forgot.hint" = "We'll send a reset link to your email";
+"login.forgot.sent" = "Check your email";
+"login.forgot.send" = "Send";
+"login.forgot.error" = "Please check your email";
+"login.email_option" = "Continue with email";
+"signup.title" = "Sign Up";
+"signup.character_title" = "Pick a Character";
+"signup.greeting" = "Welcome!";
+"signup.greeting_sub" = "Enter your nickname and account info";
+"signup.nickname" = "Nickname";
+"signup.password_hint" = "Password (6+ characters)";
+"signup.next" = "Next";
+"signup.character_sub" = "Choose the animal character your friends will see";
+"signup.start" = "Get Started";
+"signup.error_input" = "Please fill in all fields correctly";
+"signup.error_fail" = "Sign up failed. Please try again.";
+"focuspaws.friend" = "FocusPaws friend";
+"room.default_name %@" = "%@'s Room";
+"auth.error.apple.nonce" = "Apple sign-in request expired. Please try again.";
+"auth.error.apple.identity" = "Couldn't verify Apple account information.";
+"auth.error.google.client_id" = "Google sign-in configuration is missing.";
+"auth.error.google.identity" = "Couldn't verify Google account information.";
+"auth.error.presenting" = "Could not find the login screen. Please reopen the app and try again.";
+
+// MARK: - Room
+"room.my" = "My Room";
+"room.friends" = "Friends' Rooms";
+"room.create" = "Create Room";
+"room.create.new" = "New Room";
+"room.create.hint" = "Enter a room name";
+"room.name.placeholder" = "Room name";
+"room.members %@" = "%@ Members";
+"room.invite.code" = "Invite Code";
+"room.invite.hint" = "Share this code with a friend";
+"room.invite.copy" = "Copy Code";
+"room.invite.copied" = "Copied!";
+"room.invite.share.text %@" = "Let's focus together on FocusPaws! Invite code: %@";
+"room.join.title" = "Join Room";
+"room.join.code.title" = "Enter Invite Code";
+"room.join.hint" = "Enter the 6-digit code from your friend";
+"room.join.placeholder" = "e.g. AB12CD";
+"room.joined" = "Joined!";
+"room.visit" = "Join";
+"room.rename" = "Rename Room";
+"room.manage" = "Manage Members";
+"room.delete" = "Delete Room";
+"room.leave.title" = "Leave Room";
+"room.leave" = "Leave";
+"room.leave.confirm" = "Are you sure you want to leave?";
+"room.delete.confirm" = "Deleting the room removes it from all members immediately.";
+"room.kick.title" = "Remove Member";
+"room.kick" = "Remove";
+"room.kick.confirm %@" = "Remove %@ from the room?";
+"room.status.placeholder" = "Say something...";
+"room.status.title" = "Status";
+"room.status.clear" = "Clear";
+"room.status.focus" = "Focusing";
+"room.status.deadline" = "Deadline today";
+"room.status.run" = "Let's grind";
+"room.status.tired" = "Sleepy";
+"room.status.coffee" = "Having coffee";
+"room.status.idle" = "Idle";
+"room.customize.locked" = "Only the host can change the room theme";
+"room.customize.desk" = "Desk Skin";
+"room.customize.title" = "Customize";
+"room.customize.buy" = "Buy in shop";
+"room.customize.preview" = "Members appear on a real desk background";
+
+// MARK: - Check-in
+"checkin.reward" = "Daily Reward";
+"checkin.done" = "Reward Received";
+"checkin.awarded %lld %@" = "+%lld %@ awarded";
+"checkin.hint %@" = "%@ active · 10 min goal · breaks excluded";
+"checkin.remaining %lld" = "%lld min left";
+"checkin.error.not_logged_in" = "Please log in";
+"checkin.error.already" = "Today's reward has already been claimed";
+"checkin.error.remaining %lld" = "Stay active %lld more min excluding breaks to claim it";
+
+// MARK: - Timer
+"timer.title" = "Timer";
+"timer.select" = "Choose an activity";
+"timer.stop" = "Stop";
+"timer.start" = "Start";
+"timer.pause" = "Pause";
+"timer.resume" = "Resume";
+"timer.resting" = "On break";
+"timer.paused %@" = "%@ paused";
+
+// MARK: - Activity
+"activity.resting" = "On break";
+"activity.coding" = "Coding";
+"activity.studying" = "Studying";
+"activity.exercise" = "Working out";
+"activity.working" = "Working";
+
+// MARK: - Calendar
+"calendar.title" = "Records";
+"calendar.weekday.sun" = "Sun";
+"calendar.weekday.mon" = "Mon";
+"calendar.weekday.tue" = "Tue";
+"calendar.weekday.wed" = "Wed";
+"calendar.weekday.thu" = "Thu";
+"calendar.weekday.fri" = "Fri";
+"calendar.weekday.sat" = "Sat";
+"calendar.no_record" = "No records";
+"calendar.monthly.total %@" = "Total this month: %@";
+"calendar.duration.hours %lld %lld" = "%lldh %lldm";
+"calendar.duration.minutes %lld" = "%lld min";
+
+// MARK: - Profile
+"profile.title" = "Profile";
+"profile.edit.hint" = "Tap to edit";
+"profile.edit.title" = "Edit Profile";
+"profile.shop" = "Shop";
+"profile.nickname" = "Nickname";
+"profile.character" = "Character";
+"profile.outfit" = "Outfit";
+"profile.outfit.soon" = "Outfits coming soon";
+"profile.outfit.desc" = "Custom outfits per character, drawn with care for quality";
+"profile.save.error" = "Save failed. Please try again.";
+
+// MARK: - Settings
+"settings.title" = "Settings";
+"settings.language" = "Language";
+"settings.privacy" = "Privacy Policy";
+"settings.terms" = "Terms of Service";
+"settings.logout" = "Log Out";
+"settings.logout.confirm" = "Are you sure you want to log out?";
+"settings.delete.account" = "Delete Account";
+"settings.delete.confirm" = "Deleting your account permanently removes all data and cannot be undone.";
+"settings.deleting" = "Deleting...";
+"settings.admin" = "Admin";
+"settings.admin.broadcast" = "Send Broadcast";
+"settings.feedback" = "Contact Us";
+
+// MARK: - Shop
+"shop.title" = "Drop";
+"shop.error.funds" = "Insufficient Balance";
+"shop.recharge" = "Top Up";
+"shop.currency.desc" = "Earn through activity and unlock animals and room skins";
+"shop.animals" = "Animals";
+"shop.animals.subtitle" = "Pick your focus buddy";
+"shop.skins" = "Skins";
+"shop.skins.subtitle" = "Default is free; mood skins unlock for 100";
+"shop.owned" = "Owned";
+"shop.recharge.title" = "Top Up";
+"shop.recharge.desc" = "Top up to unlock animals and room skins.";
+"shop.pack1.title" = "500";
+"shop.pack1.subtitle" = "Easy starter pack";
+"shop.pack2.title" = "1200";
+"shop.pack2.subtitle" = "Enough for an animal and more";
+"shop.pack3.title" = "2000";
+"shop.pack3.subtitle" = "Best value pack";
+"shop.balance" = "Balance";
+"shop.pack1.price" = "₩500";
+"shop.pack2.price" = "₩1,000";
+"shop.pack3.price" = "₩1,200";
+"shop.live" = "LIVE";
+"shop.unlocked" = "Unlocked";
+"shop.get" = "GET";
+"shop.new" = "NEW";
+
+// MARK: - Onboarding
+"onboarding.p1.title" = "Focus Space with Friends";
+"onboarding.p1.desc" = "Create a room, invite friends,\nand focus together";
+"onboarding.p2.title" = "Track with Activity Timer";
+"onboarding.p2.desc" = "Log coding, studying, workouts and more.\nReview everything in the calendar";
+"onboarding.p3.title" = "Earn by Focusing";
+"onboarding.p3.desc" = "Stay active 10+ min a day to earn rewards.\nUse them to unlock new animal characters";
+"onboarding.p4.title" = "You're all set!";
+"onboarding.p4.desc" = "Create a room, invite friends,\nand start with FocusPaws";
+"onboarding.next" = "Next";
+"onboarding.start" = "Get Started";
+
+// MARK: - Errors
+"error.not_logged_in" = "Please log in";
+"error.room_not_found" = "Invalid invite code. Please check again";
+"error.room_full" = "Room is full (max %lld members)";
+"error.too_many_rooms" = "You can create up to 2 rooms";
+"error.not_room_owner" = "Only the host can make changes";
+
+// MARK: - Room Skin Subtitles
+"따뜻한 집 책상" = "Cozy Home Desk";
+"햇빛 드는 교실 책상" = "Sunny Classroom Desk";
+"따뜻한 카페 테이블" = "Warm Cafe Table";
+"조용한 독서실 자리" = "Quiet Study Room";
+"차분한 도서관 테이블" = "Calm Library Table";
+"skin.desk.subtitle" = "A cozy home desk";
+"skin.school.subtitle" = "Sunny classroom desk";
+"skin.cafe.subtitle" = "Warm cafe table";
+"skin.studyroom.subtitle" = "Quiet study room";
+"skin.library.subtitle" = "Calm library table";
+"skin.beach.subtitle" = "Desk by the ocean waves";
+"skin.terrace.subtitle" = "Sunset terrace table";
+"skin.gym.subtitle" = "Focus at the gym";
+
+// MARK: - Animals
+"animal.cat" = "Cat";
+"animal.bear" = "Bear";
+"animal.rabbit" = "Rabbit";
+"animal.hamster" = "Hamster";
+"animal.dog" = "Dog";
+"animal.chick" = "Chick";
+"animal.redPanda" = "Red Panda";
+"animal.otter" = "Otter";
+"animal.fox" = "Fox";
+"animal.penguin" = "Penguin";
+"animal.koala" = "Koala";
+"animal.squirrel" = "Squirrel";
+
+// MARK: - Currency
+"currency.name" = "Time";
+
+// MARK: - Elapsed time
+"elapsed.hours %lld %lld" = "%lldh %lldm";
+"elapsed.minutes %lld %lld" = "%lldm %llds";
+"elapsed.seconds %lld" = "%llds";
+
+// MARK: - Daily Reward
+"reward.title" = "Today's Reward";
+"reward.earned %lld" = "%lld earned";
+"reward.earned.label" = "Earned";
+
+// MARK: - Member Profile
+"member.today_activity" = "Today's Activity";
+"member.today_total %@" = "Today %@";
+"member.total" = "Total";
+
+// MARK: - Cheer
+"cheer.button" = "Cheer";
+"cheer.send_amount %lld %@" = "Send %lld %@";
+"cheer.receiver_hint %lld %@" = "Your friend gets %lld %@ instantly";
+"cheer.sent" = "Cheered!";
+"cheer.already" = "Already cheered today";
+"cheer.error.already" = "Already cheered today";
+"cheer.error.no_coins" = "Insufficient balance";
+"cheer.error.limit" = "Daily cheer limit reached (5/day)";
+"cheer.remaining %lld" = "%lld cheers left today";
+"cheer.someone" = "A friend";
+"cheer.send_action" = "send";
+"cheer.receiver_prefix" = "Friend gets";
+"cheer.receiver_suffix" = "instantly";
+
+// MARK: - Notifications
+"notification.cheer.title" = "Cheer received";
+"notification.cheer.body %@" = "%@ sent you a cheer";
+"notification.activity_started.title" = "Friend started focusing";
+"notification.activity_started.body %@ %@" = "%@ started %@";
+
+// MARK: - Broadcast
+"broadcast.reward.animal" = "Limited animal reward";
+"broadcast.reward.room_skin" = "Limited background reward";
+"broadcast.expired" = "Expired";
+"broadcast.expires.days %lld" = "Expires in %lldd";
+"broadcast.expires.hours %lld" = "Expires in %lldh";
+"broadcast.expires.minutes %lld" = "Expires in %lldm";
+"broadcast.claimed" = "Claimed!";
+"broadcast.confirm" = "OK";
+"broadcast.claim" = "Claim";
+"broadcast.inbox.empty" = "No messages yet";
+"broadcast.delete" = "Delete";
+"broadcast.messages" = "Messages";
+"broadcast.just_now" = "Just now";
+"broadcast.ago.minutes %lld" = "%lldm ago";
+"broadcast.ago.hours %lld" = "%lldh ago";
+"broadcast.ago.days %lld" = "%lldd ago";
+"broadcast.admin.section.message" = "Message";
+"broadcast.admin.title.placeholder" = "Title (e.g. Launch gift)";
+"broadcast.admin.message.placeholder" = "Message";
+"broadcast.admin.section.reward" = "Reward";
+"broadcast.admin.reward.type" = "Reward Type";
+"broadcast.admin.reward.none" = "None";
+"broadcast.admin.reward.coins" = "App Currency";
+"broadcast.admin.reward.animal" = "Animal";
+"broadcast.admin.reward.room_skin" = "Room Background";
+"broadcast.admin.expiry_days %lld" = "Claim period: %lldd";
+"broadcast.admin.sent" = "Sent!";
+"broadcast.admin.send" = "Send";
+"broadcast.admin.title" = "Broadcast";
+"broadcast.admin.placeholder.coins" = "Currency amount (e.g. 200)";
+"broadcast.admin.placeholder.animal" = "Animal key (e.g. dog, chick, red_panda, otter)";
+"broadcast.admin.placeholder.room_skin" = "Background key";
+"broadcast.admin.error %@" = "Send failed: %@";
+
+// MARK: - Feedback
+"feedback.category.bug" = "Bug report";
+"feedback.category.idea" = "Idea suggestion";
+"feedback.category.other" = "Other question";
+"feedback.category.section" = "Category";
+"feedback.content.section" = "Message";
+"feedback.placeholder" = "Details help us improve";
+"feedback.submit" = "Send";
+"feedback.title" = "Contact Us";
+"feedback.sent.title" = "Sent!";
+"feedback.sent.message" = "Thanks for your thoughtful feedback";
+
+// MARK: - Debug
+"debug.simulation" = "Simulation";
+"debug.room.count %lld" = "%lld-person room";
+"debug.layout.check" = "Check layout";
+
+"debug.simulation.room_title %lld" = "%lld-person simulation room";
+"debug.room.close.message" = "Only the simulation room closes. Real data is not changed.";
+"debug.room.skin" = "Room Skin";
+"debug.status.title" = "Simulation status message";
+"debug.status.placeholder" = "e.g. Focusing";
+"debug.status.focusing" = "Focusing";
+"debug.status.resting" = "Resting";
+"debug.status.assignment" = "Doing homework";
+"debug.status.quiet_study" = "Studying quietly";
+"debug.status.deadline" = "Deadline mode";
+"debug.status.clear" = "Clear status message";
+"debug.status.change" = "Change Status";
+"debug.members.section" = "Participants";

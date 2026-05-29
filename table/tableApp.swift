@@ -84,14 +84,22 @@ struct tableApp: App {
         else { return }
 
         let now = Date()
-        let duration = max(0, Int(now.timeIntervalSince(activity.startedAt)))
+        let calendar = Calendar.current
+
+        // 자정을 넘어간 경우 오늘 시작 시점으로 클램핑
+        let startOfToday = calendar.startOfDay(for: now)
+        let effectiveStart = activity.startedAt < startOfToday ? startOfToday : activity.startedAt
+
+        // 최대 8시간 cap (비정상적으로 큰 값 방지)
+        let rawDuration = Int(now.timeIntervalSince(effectiveStart))
+        let duration = max(0, min(rawDuration, 8 * 3600))
         guard duration >= 60 else { return } // 1분 미만은 저장 안 함
 
         let record = ActivityRecord(
             id: UUID().uuidString,
             userId: user.id,
             type: activity.type,
-            startedAt: activity.startedAt,
+            startedAt: effectiveStart,
             endedAt: now,
             duration: duration
         )
